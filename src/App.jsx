@@ -1,24 +1,22 @@
-// Week 8 starter: React State & Interactive Components
-// TODO: Break down your week 7 monolithic component into separate components
-// Each component should manage its own state as appropriate
-
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="portfolio">
-      <h1>Week 8: React State & Interactive Components</h1>
-      <p>Follow the README instructions to build your component-based portfolio!</p>
-
-      {/* TODO: Import and add components here:
-          - <Navbar />
-          - <Hero />
-          - <About />
-          - <Skills />
-          - <Projects />
-          - <Contact />
-          - <Footer />
-      */}
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }
